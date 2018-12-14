@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignment 7.3</title>
+    <title></title>
+  </head>
+  <body>
+    <script>
+      function fizzbuzz(number)
+      {
+        for(var x = 1; x<+ number; x++){
+          if(x % 3 === 0 && x % 5 ===0){
+            console.log(x +" "+"fizzbuzz");
+          }
+          else if(x % 3 === 0){
+            console.log(x +" "+ "fizz");
+          }
+          else if(x % 5 === 0){
+            console.log(x +" "+ "buzz");
+          }
+          else{
+            console.log(x);
+          }
+        }
+      }
+      var test= 100;
+      fizzbuzz(test);
+
+    </script>
+
+  </body>
+</html>
